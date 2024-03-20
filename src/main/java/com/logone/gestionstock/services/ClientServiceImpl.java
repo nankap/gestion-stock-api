@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 public class ClientServiceImpl implements ClientService {
-    final ClientRepository clientRepository;
+    private final ClientRepository clientRepository;
     public ClientServiceImpl(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
     }

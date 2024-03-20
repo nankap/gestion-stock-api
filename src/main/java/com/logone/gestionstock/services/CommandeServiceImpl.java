@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class CommandeServiceImpl implements CommandeService {
 
-    final CommandeRepository commandeRepository;
+    private final CommandeRepository commandeRepository;
     public CommandeServiceImpl(CommandeRepository commandeRepository) {
         this.commandeRepository = commandeRepository;
     }

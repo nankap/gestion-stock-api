@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class StockServiceImpl implements StockService {
 
-    final StockRepository stockRepository;
+    private final StockRepository stockRepository;
     public StockServiceImpl(StockRepository stockRepository) {
         this.stockRepository = stockRepository;
     }
